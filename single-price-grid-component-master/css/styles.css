@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 90%;
+    height: 500px;
+    background-color: hwb(203 90% 4%);
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+.cards{
+    position: relative;
+    width: 680px;
+    height: 100%;   
+    margin: 200px auto;
+}
+.card{
+    text-align: left;
+    padding: 2em;
+    background-color: #fff;
+    color: hsl(218, 22%, 67%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1.5em;
+    padding-left: 3em;
+
+}
+.title{
+    color: hsl(179, 62%, 43%);
+    font-size: 1.6em;
+}
+.subtitle{
+    color: hsl(71, 73%, 54%);
+}
+.card-sub{
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(204, 43%, 93%);
+    position: absolute;
+    width: 340px;
+    height: 50%;
+    right: 340px;
+    border-bottom-left-radius: 10px;
+    text-align: left;
+    padding: 1.5em;
+    padding-left: 3em;
+
+}
+.card-information{
+    background-color: hsl(179, 47%, 56%);
+    color: hsl(204, 43%, 93%);
+    position: absolute;
+    width: 340px;
+    height: 50%;
+    left: 340px;
+    border-bottom-right-radius: 10px;
+    text-align: left;
+    padding: 1.5em;
+    padding-left: 3em;
+
+}
+.span-dollars{
+    font-size: 2em;
+    
+}
+.mes{
+    color: hsl(204 43% 93% / .5);
+}
+.list{
+    list-style: none;
+    padding: 0;
+    
+}
+.button-subscription{
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

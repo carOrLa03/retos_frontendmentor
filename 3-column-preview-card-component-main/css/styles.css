@@ -1,0 +1,75 @@
+/* *{
+    box-sizing: border-box;
+} */
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-weight: 400; 
+}
+.cards{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 250px;
+    height: 430px;
+    position: relative; 
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.card-icon{
+    width: 80px;
+    height: 50px;
+    
+}
+.title-card{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;  
+    
+}
+.text-card{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    line-height: 2em;
+}
+.card-orange{
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.card-blue,
+.button-blue{
+    background-color: hsl(184, 100%, 22%);
+}
+.card-green{
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.button{
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+}
+.button-orange{
+    background-color: hsl(31, 77%, 52%);
+}
+.button-green{
+    background-color: hsl(179, 100%, 13%);
+}
+.boton-caja{
+    display: block;
+    position: absolute;
+    top: 400px;
+}
